@@ -4,7 +4,7 @@ import java.util.*;
  * Write a program in Java to accept the elements (numbers) in a 4x4 matrix using 2D array. Find the largest and the smallest numbers of the matrix.
 */
 class MatrixMaxMin {
-    private int size = 4;
+    private int size = 2;
     private Integer Array[][] = new Integer[size][size];
     private Scanner input = new Scanner(System.in);
 

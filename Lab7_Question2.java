@@ -7,9 +7,9 @@ import java.util.Scanner;
 /*
  * Define a class MotorVehicle
  * Data Members: modelName, modelNumber, modelPrice
- * Methods: 
- * display() – to display the name, price and model number of the vehicle 
- * Car with suitable constructors 
+ * Methods:
+ * display() – to display the name, price and model number of the vehicle
+ * Car with suitable constructors
 */
 class MotorVehicle {
     String modelName;
@@ -31,11 +31,11 @@ class MotorVehicle {
 
 /*
  * Define another class named Car that inherits the class MotorVehicle Data
- * Members: discountRate 
- * Methods: 
-    * display() – to display the Car name, Car model number, Car price and the discount rate 
+ * Members: discountRate
+ * Methods:
+    * display() – to display the Car name, Car model number, Car price and the discount rate
     * discount() – to compute the discount.
- 
+
  * Create the classes MotorVehicle and Car with suitable constructors and test it.
 */
 
@@ -67,7 +67,7 @@ class Car extends MotorVehicle {
 public class Lab7_Question2 {
     public static void main(String[] args) {
         System.out.print("\033[H\033[2J");
-        
+
         Car car = new Car();
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the model name: ");
